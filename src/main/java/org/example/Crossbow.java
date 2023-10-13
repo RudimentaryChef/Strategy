@@ -8,4 +8,14 @@ public class Crossbow  implements PlayerStrategy{
         Hint: There are three methods that you need to implement from the PlayerStrategy class
 
      */
+     public type = "Crossbow";
+     public void attackSmall(){
+        System.out.println("Crossbow" + "-" + "Small");
+     }
+     public void attackMedium(){
+        System.out.println("Crossbow" + "-" + "Medium");
+     }
+     public void attackLarge(){
+        System.out.println("Crossbow" + "-" + "Large");
+     }
 }

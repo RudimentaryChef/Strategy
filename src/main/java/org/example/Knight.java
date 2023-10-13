@@ -13,6 +13,9 @@ public class Knight {
         Hint: There should simply be three method invocations in this method.
      */
     public void attack() {
+        playerStrategy.attackSmall();
+        playerStrategy.attackSmall();
+        playerStrategy.attackSmall();
 
     }
 
@@ -22,6 +25,6 @@ public class Knight {
 
      */
     public void announceStrategy() {
-
+        System.out.println(playerStrategy.type);
     }
 }

@@ -7,4 +7,14 @@ public class SpellBook implements PlayerStrategy{
                 items corresponds to the name and size of method being implement
         Hint: There are three methods that you need to implement from the PlayerStrategy class
      */
+     public type = "SpellBook";
+      public void attackSmall(){
+        System.out.println("SpellBook" + "-" + "Small");
+     }
+     public void attackMedium(){
+        System.out.println("SpellBook" + "-" + "Medium");
+     }
+     public void attackLarge(){
+        System.out.println("SpellBook" + "-" + "Large");
+     }
 }
